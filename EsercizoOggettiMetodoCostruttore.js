@@ -6,7 +6,7 @@ function auto(marca, modello, anno) {
     this.anno = anno
 }
 
-let auto1 = new auto("Ferrari", "stradale", 2023)
-let auto2 = new auto("Pinuzza", "GTB", 2043)
+let auto1 = new auto("Ferrari", "stradale", "2025")
+let auto2 = new auto("Pinuzza", "GTB", "2043")
 
 console.log(auto1, auto2)

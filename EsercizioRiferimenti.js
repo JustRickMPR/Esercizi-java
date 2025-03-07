@@ -2,6 +2,6 @@
 
 let sezione1 = {lettera: "A" }
 let sezione2 = sezione1
-sezione2.lettera = "B"
+sezione1.lettera = "B"
 
-console.log(sezione2.lettera)
+console.log(sezione1, sezione2)

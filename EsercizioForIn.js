@@ -8,8 +8,8 @@ let libro = {
 
 
 for(let chiave in libro) {
-console.log("Informazioni " + chiave)
-console.log("Risposte " + libro[chiave])
+//console.log("Informazioni " + chiave)
+//console.log(chiave + " " + libro[chiave])
 }
 
 // odio le virgole
