@@ -16,7 +16,7 @@ function addStudent(name, age, course) {
 
 addStudent("Rick", 16, "2G")
 addStudent("Domenico", 16, "3R")
-addStudent("Ale", 17, "1S")
+addStudent("Ale", 17, "15")
 
 
 for(let student of students) {
