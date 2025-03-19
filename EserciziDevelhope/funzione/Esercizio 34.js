@@ -1,6 +1,6 @@
-let arrowfunction = something => {
-    return 5 + 5;
-  };
+let arrowfunction = (num1,num2) => {
+ return num1 + num2
+  }
   
-  console.log(arrowfunction);
+  console.log(arrowfunction(21, 39))
   

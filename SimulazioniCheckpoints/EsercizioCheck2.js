@@ -15,8 +15,8 @@ addmission("Steal the secret sandwitch")
 addmission("Beat Paige on the game Budokai Tenkaichi 3")
 
 function missionsviewer() {
-for(let mission in missions)
-    console.log(missions)
+for(let mission of missions)
+    console.log(mission)
 }
 
 
@@ -25,15 +25,11 @@ function completemission() {
 }
 
 function missionmodifier(index, newmission) {
-    index = { (addmission())
-    newmission: newmission
-    }
-
-
+missions [index] = newmission
 
 }
 
-
+missionmodifier(0, "Prova")
 
 //missionsviewer()
 //completemission()

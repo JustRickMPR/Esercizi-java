@@ -1,14 +1,19 @@
 //Partendo dal codice, vogliamo che la variabile sport sia una variabile 'globale', quale definizione possiamo adottare?.
 
-function canPlay() {
+let personName = "Cosimo"
 let sport = " Football";
 
+function canPlay() {
+
 if (true) {
-let personName = "Cosimo";
+personName = "pippo";
 }
+
+
 
 console.log(personName + sport);
 }
+
 
 canPlay();
 

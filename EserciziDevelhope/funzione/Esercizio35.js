@@ -1,6 +1,12 @@
+let personName = "Cosimo"
+
+
 function canPlay() {
     let sport = " Football";
-    let personName = "Cosimo";
+
+    if (false) {
+          personName = "Cosimo";
+        }
     
     
     console.log(personName + sport);
